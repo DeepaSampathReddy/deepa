@@ -1,0 +1,20 @@
+package com.simplilearn.first;
+
+import java.util.Scanner;
+
+public class SimpleIntrest {
+	public static void main(String[] args) {
+		float principleAmnt;
+		float rateOfIntrest;
+		int noOfYears;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("please enter principleAmnt");
+		principleAmnt = sc.nextFloat();
+		System.out.println("please enter rate of intrest");
+		rateOfIntrest = sc.nextFloat();
+		System.out.println("please enter no of years");
+		noOfYears = sc.nextInt();
+		System.out.println("amount need to pay :"+(principleAmnt*rateOfIntrest)/100));
+	}
+
+}

@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+D:\JavaFSD_WeekEndClassPractice\.metadata\.plugins\org.eclipse.jdt.core
+3968443996.index
+3651479379.index
+1865797976.index

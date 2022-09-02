@@ -1,0 +1,11 @@
+package com.simplilearn.access1;
+
+public class AccessModifiers {
+	public int publicNum = 10;
+	int defaultInt = 20;
+	private int privateNum = 30;
+	protected int protectedNum = 40;
+	
+	
+
+}

@@ -1,0 +1,13 @@
+package com.simplilearn.first;
+
+public class TypeCasting {
+	public static void main(String[] args) {
+		byte b = 10;
+		short c = b;
+		int d = c;
+		long e = d;
+		float f = d;		
+		double g = f;
+		
+	}
+}

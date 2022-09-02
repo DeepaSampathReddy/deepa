@@ -1,0 +1,14 @@
+package com.simplilearn.first;
+
+public class CharecterConversion {
+	public static void main(String[] args) {
+		char a = 'A';
+		int d = 10;
+		System.out.println("int :"+d);
+		int c = d+2;
+		char e = (char)c;
+		System.out.println("char "+e);
+		
+		
+	}
+}

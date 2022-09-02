@@ -1,0 +1,32 @@
+package com.simplilearn.first;
+
+public class First50NaturalNumbers {
+	public static void main(String[] args) {
+		int i = 0;
+		int j = 0;
+		int k = 1;
+		System.out.println("first 50 natural no's");
+		for(i=0;i<=50;i++) {
+			System.out.print(" "+i );
+		}
+		System.out.println('\n'+"first 50 even numbers:");
+		for(i=0;i<=50;i++) {
+			if(i%2 == 0) {
+				System.out.print(" "+i);
+			}
+		}
+		System.out.println('\n'+"sum of first 10 natural numbers:");
+		for(i=1;i<=10;i++) {			
+			j=j+i;
+			//System.out.println(j);
+		}
+		System.out.println(j);
+		System.out.println("Factorial of a number:");
+		while(k<=5) {
+			k = k*(k-1);
+			k++;
+			
+		}
+		System.out.println(k);
+	}
+}

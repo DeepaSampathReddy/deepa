@@ -1,0 +1,12 @@
+package com.simplilearn.first;
+
+public class AreaOfSquare {
+	public static void main(String[] args) {
+		float side = 3;
+		float area = side*side;
+		float perimeter = 4*side;
+		System.out.println("area  "+area);
+		System.out.println("perimeter  "+perimeter);
+	}
+
+}
